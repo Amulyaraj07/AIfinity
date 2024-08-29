@@ -84,4 +84,21 @@ learn-and-earn-platform/
 
 
 
+# Available Scripts
+npm start: Starts the application.
+# Usage
+1. Sign Up: Go to /signup and create a new account.
+2. Log In: Go to /login and enter your credentials.
+3. Explore Features: Navigate through the platform to explore learning materials, play quizzes, and engage in mentorship.
+# Contributing
+We welcome contributions to improve this project. Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+# Steps to Contribute:
+1. Fork the repository.
+2. Create a new branch (git checkout -b feature/YourFeatureName).
+3. Commit your changes (git commit -m 'Add some feature').
+4. Push to the branch (git push origin feature/YourFeatureName).
+5. Open a pull request.
+# License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
