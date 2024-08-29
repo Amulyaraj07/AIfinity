@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a Resource</title>
+    <link rel="stylesheet" href="res.css">
+</head>
+<body>
+    <header>
+        <h1>Find a Resource</h1>
+        <p>Select your university and subject to discover relevant resources.</p>
+    </header>
+    
+    <main >
+
+       
+        <form id="resource-form">
+            <label for="university">Choose Your University:</label>
+            <select id="university" name="university">
+                <option value="">Select University</option>
+                <option value="example">Lovely Professional University</option>
+                <option value="another">Galgottias University</option>
+                <option value="yet-another">Chandigarh University</option>
+                <option value="other">Other (Please Specify)</option>
+            </select>
+
+            <label for="subject">Choose Your Subject:</label>
+            <select id="subject" name="subject">
+                <option value="">Select Subject</option>
+                <option value="cs">Computer Science</option>
+                <option value="me">Mechanical Engineering</option>
+                <option value="phy">Physics</option>
+                <option value="math">Mathematics</option>
+                <option value="other">Other (Please Specify)</option>
+            </select>
+            <label for="language">Choose Your Language:</label>
+            <select id="language" name="language">
+                <option value="">Select Language</option>
+                <option value="cs">English</option>
+                <option value="me">Hindi</option>
+                <option value="other">Other (Please Specify)</option>
+            </select>
+            <br>
+            <button type="button" onclick="discoverResources()">Discover Resources</button>
+        </form>
+
+        <section id="results">
+            <!-- Results will be displayed here -->
+        </section>
+    </main>
+
+
+    <footer>
+        <p>If you have any specific needs or questions, please reach out to us at <a href="mailto:support@example.com">afinitysupport@outlook.com</a>.</p>
+    </footer>
+
+   
+</body>
+</html>
