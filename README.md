@@ -84,6 +84,7 @@ learn-and-earn-platform/
 
 
 
+```
 # Available Scripts
 npm start: Starts the application.
 # Usage
